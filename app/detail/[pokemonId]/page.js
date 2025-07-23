@@ -1,5 +1,5 @@
-import FlipCard from "@/components/FlipCard";
-import NotFound from "@/app/not-found";
+import FlipCard from "../../../components/FlipCard";
+import NotFound from "../../not-found";
 
 export default async function Detail({ params }) {
 
