@@ -5,7 +5,7 @@ export default async function Detail({ params }) {
 
     const { pokemonId } = params;
 
-    const res = await fetch(`http://localhost:3000/api/pokemon/${pokemonId}`, {
+    const res = await fetch(`https://oz-next-pokemon-sigma.vercel.app/api/pokemon/${pokemonId}`, {
         method: "GET",
         cache: "no-store",
     });

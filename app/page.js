@@ -2,7 +2,7 @@ import { Card } from "../components/Card";
 import Link from "next/link";
 
 const getAllPokemon = async () => {
-  const pokemonList = await fetch("http://localhost:3000/api/pokemon", {
+  const pokemonList = await fetch("https://oz-next-pokemon-sigma.vercel.app/api/pokemon", {
     method: "GET",
     headers: {"Content-Type" : "application/json"},
     cache: "no-store",
